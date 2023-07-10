@@ -51,7 +51,7 @@ const Landing: React.FunctionComponent = () => {
         </Box>
         <Box m={2}>
           <Button onClick={signIn} variant="contained" color="primary">
-            SIGN IN
+            SIGN IN / REGISTER
           </Button>
         </Box>
       </Grid>
