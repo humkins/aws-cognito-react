@@ -54,7 +54,7 @@ export default function Home() {
         <Box className={classes.hero} p={4}>
           <Grid className={classes.root} container direction="column" justify="center" alignItems="center">
             <Box m={2}>
-              <img src={logoImage} width={224} height={224} alt="logo" />
+              <img src={logoImage} width={884} height={245} alt="logo" />
             </Box>
             <Box m={2}>
               <Link underline="none" color="inherit" href="https://github.com/dbroadhurst/aws-cognito-react">
@@ -63,7 +63,7 @@ export default function Home() {
                     <GitHubIcon fontSize="large" />
                   </Box>
                   <Typography className={classes.title} variant="h3">
-                    AWS Cognito Starter Home
+                    Smart Charging Pilot
                   </Typography>
                 </Grid>
               </Link>
